@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body{
+        margin: 3px;
+        height: 100hv;
+      }
+      .header {
+        margin: 3px;
+        border: 1px solid black;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .top {
+        display: flex;
+        gap: 3px;
+        padding: 3px;
+      }
+      .logo {
+        background-color: red;
+        height: 40px;
+        width: 40px;
+      }
+      .text {
+        align-content: center;
+      }
+      .bottom {
+        display: flex;
+        gap: 3px;
+        padding: 3px;
+        align-items: center;
+      }
+      .bux {
+        background-color: blue;
+        height: 30px;
+        width: 60px;
+      }
+      .container{
+        display: flex;
+        border: 1px solid black;
+        padding: 3px;
+        gap: 3px;
+        height: 76vh;
+      }
+      .main-content{
+        display: flex;
+        border: 1px solid black;
+        padding: 3px;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: center;
+        justify-content: space-around;
+      }
+      .leftbox{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 3px;
+        align-items: center;
+        width: 29vw;
+        height: 32vh;
+      }
+      .bo1{
+        border: 1px solid black;
+      }
+      .boox{
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+      }
+      .rightbox{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 3px;
+        align-items: center;
+        width: 29vw;
+        height: 32vh;
+      }
+      .bo1{
+        border: 1px solid black;
+      }
+      .boox{
+        border: 1px solid black;
+        height: 200px;
+        width: 28vw;
+      }
+      .aside {
+        display: flex;
+        border: 1px solid black;
+        padding: 3px;
+      }
+      .sideboxes {
+        border: 1px solid black;
+        height: 30px;
+        width: 268px;
+        margin: 3px;
+      }
+      .footer{
+        display: flex;
+        border: 1px solid black;
+        gap: 3px;
+        padding: 3px;
+        flex-grow: 1;
+        flex-direction: column;
+        margin-top: 3px;
+      }
+      .upfoot{
+        display: flex;
+      }
+      .lowgo{
+        background-color: red;
+        height: 40px;
+        width: 40px;
+      }
+      .teext{
+        display: flex;
+        align-items: center;
+      }
+      .downfoot{
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+        
+      }
+      .footbox{
+        background-color: red;
+        height: 20px;
+        width: 20px;
+      }
+      .copy{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <div class="logo"></div>
+        <div class="text">FLEXBOX</div>
+        </div>  
+        <div class="bottom">
+          <div class="bux"></div>
+          <div class="bux"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="main-content">
+        <div class="leftbox">
+            <div class="box1">
+            <div class="mainbox">Main Box1</div>
+            </div>
+            <div class="boox"></div>
+          </div>
+
+          <div class="rightbox">
+            <div class="box1">
+            <div class="mainbox">Main Box1</div>
+            </div>
+            <div class="boox"></div>
+            </div>
+          </div>
+        
+
+        <div class="aside">
+          <div class="sidebox">
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+            <div class="sideboxes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="footer">
+        <div class="upfoot">
+          <div class="lowgo"></div>
+          <div class="teext"> FLEXBOX </div>
+        </div>
+<hr>
+        <div class="downfoot">
+          <div class="footbox"></div>
+          <div class="footbox"></div>
+          <div class="footbox"></div>
+          <div class="footbox"></div>
+          <div class="footbox"></div>
+        </div>
+        <div class="copy">
+          <div class="right">@Cpyright All right reserved</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

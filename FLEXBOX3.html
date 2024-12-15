@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        height: 100vh;
+      }
+
+      .header {
+        border: 1px solid black;
+        display: flex;
+        gap: 3px;
+        padding: 3px;
+        justify-content: space-between;
+      }
+
+      .right {
+        display: flex;
+      }
+      .logo {
+        background-color: red;
+        height: 40px;
+        width: 40px;
+      }
+      .flexbox {
+        align-content: center;
+      }
+      .left {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+      }
+      .leftbox {
+        background-color: red;
+        height: 30px;
+        width: 60px;
+      }
+      .container {
+        display: flex;
+        border: 1px solid black;
+      }
+      .aside {
+        display: flex;
+        border: 1px solid black;
+        gap: 3px;
+        margin: 3px;
+      }
+      .asidebox {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        border: 1px solid black;
+        margin: 3px;
+      }
+      .asideboxes {
+        border: 1px solid black;
+        width: 20vw;
+        height: 30px;
+      }
+      .main {
+        display: flex;
+        border: 1px solid black;
+        flex-grow: 1;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
+      .main-content {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+      }
+      .centerbox {
+        border: 1px solid black;
+        height: 200px;
+        width: 5vw;
+      }
+      .leftmainbox {
+        display: flex;
+        border: 1px solid black;
+        flex-direction: column;
+        gap: 3px;
+        margin: 3px;
+      }
+      .mainbox {
+        border: 1px solid black;
+        height: 190px;
+        width: 250px;
+      }
+      .footer {
+        display: flex;
+        border: 1px solid black;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+      }
+      .footbox {
+        margin: 3px;
+        display: flex;
+        gap: 3px;
+      }
+      .footboxes {
+        background-color: red;
+        height: 20px;
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="right">
+        <div class="logo"></div>
+        <div class="flexbox">FLEXBOX</div>
+      </div>
+      <div class="left">
+        <div class="leftbox"></div>
+        <div class="leftbox"></div>
+        <div class="leftbox"></div>
+        <div class="leftbox"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="aside">
+        <div class="asidebox">
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+          <div class="asideboxes"></div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="main-content">
+          <div class="centerbox"></div>
+          <div class="centerbox"></div>
+          <div class="centerbox"></div>
+          <div class="centerbox"></div>
+          <div class="centerbox"></div>
+          <div class="centerbox"></div>
+        </div>
+      </div>
+      <div class="leftmainbox">
+        <div class="leftmainbox">
+          <div class="mainbox"></div>
+          <div class="mainbox"></div>
+          <div class="mainbox"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footbox">
+        <div class="footboxes"></div>
+        <div class="footboxes"></div>
+        <div class="footboxes"></div>
+        <div class="footboxes"></div>
+        <div class="footboxes"></div>
+      </div>
+      <div class="copyright">Copyright Flexbox</div>
+    </div>
+  </body>
+</html>
